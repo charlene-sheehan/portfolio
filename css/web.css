@@ -5,24 +5,23 @@ body {
     font-family: 'Spectral', serif;
     font-size: 18px;
     color: #383431;
+    text-align: justify;
 }
 
 /*********** GRID ****************/
-.full-width { width: 1300px;
+.full-width { width: 1200px;
               clear:both;
 }
-.half-width { width: 550px;
-              padding: 0 10px;
-              float: left;
+.half-width { 
+			width: 580px;
+            padding: 0 10px;
+            float: left;
 }
-.third-width { width: 350px;
-            padding: 0 20px;
+.third-width { 
+			width: 380px;
+            padding: 0 10px;
             float: left;
 
-}
-
-.images {
-    padding-left: 25%;
 }
 
 .contact-me {
@@ -30,29 +29,16 @@ body {
   font-size: 15px;
 }
 
-/************ HEADER ************/
-
-header {
-  margin: 1px 1px -20px 1px;
-}
-
-header h1 {
-  font-family: 'Dawning of a New Day', cursive;
-  font-size: 35pt;
-  font-weight: 400;
-  color: #021612;
-  text-indent: 70px;
-  line-height:30px;
-}
 /************ NAVIGATION **********/
+
 nav {
   font-family: 'Spectral', serif;
   font-size: 18px;
   color: #021612;
   letter-spacing: 2px;
   word-spacing: 10px;
-  margin: -20px auto;
-  text-align: center;
+  float: right;
+  
 }
 nav ul {
   list-style-type: none;
@@ -63,11 +49,22 @@ nav li {
     display: inline-block;
 
 }
-/************ INTRO PAGE ***************/
+
+/************ MAIN ***************/
 
 main { height: 1050px;
       margin-left: 10px;
       margin-bottom: 125px;
+}
+
+main h1 {
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 60pt;
+  font-weight: 400;
+  color: #021612;
+  text-indent: 80px;
+  padding-left: 300px;
+  margin: -50px;
 }
 
 main h3 {
@@ -80,30 +77,29 @@ main h3 {
   line-height:10px;
 }
 main h4 {
-  font-family: 'Spectral', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: #021612;
   margin-bottom: -10px;
+  text-align: justify;
+  text-transform: capitalize;
 }
+
+/************ INTRO **************/
 
 #home-page-image img {
   margin: 10px 350px 0 350px;
   border: 1px solid black;
 }
 
-/************ INTRO PAGE: SHORT INTRODUCTION ***************/
-
-#skills {
-        height: 200px;
-        padding: 10px 25px 0px 50px;
-        margin: 10px;
-        }
-#heading-skills {
-        text-align: left;
-        text-indent: 115px;
+#guaranteed {
+	letter-spacing: 3px;
 }
 
+#intro-heading {
+	text-indent: -25px;
+}
 
 /************ ABOUT PAGE ***************/
 #about {
@@ -149,7 +145,19 @@ footer {
         height: 200px;
         clear:top;
         margin: 10px 10px;
+        background: aliceblue;
+        padding-top: 30px;
         }
+
+footer h2 {
+  font-family: 'Dawning of a New Day', sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+  color: #021612;
+  margin-bottom: -10px;
+  text-align: center;
+  text-transform: capitalize;
+}
 
 footer h4 {
           text-align: center;
@@ -162,11 +170,6 @@ footer h6 {
           margin-bottom: 0px;
 }
 
-footer p {
-        font-family: 'Spectral', sans-serif;
-        font-size: 10px;
-        text-align: center;
-}
 a {
         text-decoration: none;
         text-shadow: none;
@@ -176,10 +179,18 @@ a {
 footer ul {
           list-style-type: none;
           line-height: 10px;
-          margin: 0 10px 0 510px;
+          margin: 0 10px 0 380px;
                }
 
 footer li {
           display: inline-block;
           margin-right: 10px
+          
                }
+               
+.contact-me {
+        font-family: 'Spectral', serif;
+        font-size: 20px;
+        text-transform: lowercase;
+        letter-spacing: 2px;
+		}
