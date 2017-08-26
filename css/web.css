@@ -1,0 +1,185 @@
+
+/**********BASE STYLES*************/
+body {
+    background: #FFFFFF;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    color: #383431;
+}
+
+/*********** GRID ****************/
+.full-width { width: 1300px;
+              clear:both;
+}
+.half-width { width: 550px;
+              padding: 0 10px;
+              float: left;
+}
+.third-width { width: 350px;
+            padding: 0 20px;
+            float: left;
+
+}
+
+.images {
+    padding-left: 25%;
+}
+
+.contact-me {
+  font-family: 'Dawning of A New Day', cursive;
+  font-size: 15px;
+}
+
+/************ HEADER ************/
+
+header {
+  margin: 1px 1px -20px 1px;
+}
+
+header h1 {
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 35pt;
+  font-weight: 400;
+  color: #021612;
+  text-indent: 70px;
+  line-height:30px;
+}
+/************ NAVIGATION **********/
+nav {
+  font-family: 'Spectral', serif;
+  font-size: 18px;
+  color: #021612;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  margin: -20px auto;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  line-height: 10px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+/************ INTRO PAGE ***************/
+
+main { height: 1050px;
+      margin-left: 10px;
+      margin-bottom: 125px;
+}
+
+main h3 {
+  font-family: 'Dawning of a New Day', serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: #021612;
+  text-transform: capitalize;
+  text-align: center;
+  line-height:10px;
+}
+main h4 {
+  font-family: 'Spectral', serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #021612;
+  margin-bottom: -10px;
+}
+
+#home-page-image img {
+  margin: 10px 350px 0 350px;
+  border: 1px solid black;
+}
+
+/************ INTRO PAGE: SHORT INTRODUCTION ***************/
+
+#skills {
+        height: 200px;
+        padding: 10px 25px 0px 50px;
+        margin: 10px;
+        }
+#heading-skills {
+        text-align: left;
+        text-indent: 115px;
+}
+
+
+/************ ABOUT PAGE ***************/
+#about {
+        height: 610px;
+}
+
+#about-pic {
+        margin: 0 20px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+/************ WORK PAGE ***************/
+
+#work {
+        height: 800px;
+        margin: 20px;
+        padding: 0 10px 30px 10px;
+        text-align:left;
+               }
+#portfolio {
+        text-align: left;
+}
+
+#card {
+        text-align: right;
+        padding: 5px;
+        margin-left: 5px;
+}
+
+a {
+    text-decoration:none;
+    color:inherit;
+
+}
+
+#project {
+  text-align: right;
+}
+/************ FOOTER: CONTACT ME ***************/
+
+footer {
+        height: 200px;
+        clear:top;
+        margin: 10px 10px;
+        }
+
+footer h4 {
+          text-align: center;
+          margin-bottom: 0px;
+        }
+footer h6 {
+          font-family: 'Spectral', serif;
+          font-size: 18px;
+          text-align: center;
+          margin-bottom: 0px;
+}
+
+footer p {
+        font-family: 'Spectral', sans-serif;
+        font-size: 10px;
+        text-align: center;
+}
+a {
+        text-decoration: none;
+        text-shadow: none;
+        color:inherit;
+               }
+
+footer ul {
+          list-style-type: none;
+          line-height: 10px;
+          margin: 0 10px 0 510px;
+               }
+
+footer li {
+          display: inline-block;
+          margin-right: 10px
+               }
