@@ -133,17 +133,22 @@ main h4 {
 		clear: both;	
 }
 
+
+.work-images {
+		margin-left: 300px;
+		padding: 10px;
+		border: 1px dashed #85a8b0;
+}
+
 a {
     text-decoration:none;
     color:inherit;
     }
     
 #clear-footer {
-	height: 300px;
+	height: 400px;
+	padding: 200px;
 	margin: 200px;
-
-	
-
 }
     
 /************ WRITING PAGE **************/
